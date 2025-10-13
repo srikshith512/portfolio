@@ -25,6 +25,14 @@ export default function ProjectsNew() {
       github: "https://github.com/srikshith512/Weather_APP",
       live: "https://your-weather-app.netlify.app",
       image: "🌤️"
+    },
+    {
+      title: "Portfolio Website",
+      description: "Personal portfolio showcasing my projects and skills. Built with React and modern web technologies.",
+      technologies: ["React", "CSS3", "JavaScript"],
+      github: "https://github.com/srikshith512/portfolio",
+      live: "#",
+      image: "💼"
     }
   ];
 

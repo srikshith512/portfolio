@@ -44,6 +44,19 @@ body {
   padding: 0 24px;
 }
 
+.dev-banner {
+  background: var(--primary-purple);
+  text-align: center;
+  padding: 6px 0;
+}
+
+.dev-text {
+  color: #fff;
+  opacity: .9;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .header {
   border-bottom: 1px solid var(--border);
   padding: 20px 0;
@@ -158,7 +171,7 @@ body {
 
 .hero-subtitle {
   color: var(--primary-purple);
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   font-size: 24px;
   font-weight: 600;
 }
@@ -462,6 +475,10 @@ body {
 
   .section-title {
     font-size: 28px;
+  }
+
+  .dev-text {
+    font-size: 11px;
   }
 
   .skills-grid, .projects-grid {

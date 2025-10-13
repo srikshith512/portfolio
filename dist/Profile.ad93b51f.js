@@ -25087,16 +25087,15 @@ var _s = $RefreshSig$();
 function Header() {
     _s();
     const { isDarkMode, toggleTheme } = (0, _themeContextJsx.useTheme)();
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
-        className: "header",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container header-inner",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "logo",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "logo-icon",
-                        children: "M"
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "dev-banner",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "container",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        className: "dev-text",
+                        children: "Work in Progress"
                     }, void 0, false, {
                         fileName: "src/components/Header.jsx",
                         lineNumber: 11,
@@ -25106,46 +25105,73 @@ function Header() {
                     fileName: "src/components/Header.jsx",
                     lineNumber: 10,
                     columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                    className: "nav",
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/Header.jsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+                className: "header",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "container header-inner",
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            className: "nav-btn theme-toggle",
-                            onClick: toggleTheme,
-                            "aria-label": "Toggle theme",
-                            children: isDarkMode ? "\u2600\uFE0F" : "\uD83C\uDF19"
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "logo",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "logo-icon",
+                                children: "M"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.jsx",
+                                lineNumber: 17,
+                                columnNumber: 13
+                            }, this)
                         }, void 0, false, {
                             fileName: "src/components/Header.jsx",
-                            lineNumber: 14,
+                            lineNumber: 16,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            className: "nav-btn contact-btn",
-                            onClick: ()=>window.location.href = 'mailto:srikshithrao@gmail.com',
-                            children: "Say Hello"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                            className: "nav",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "nav-btn theme-toggle",
+                                    onClick: toggleTheme,
+                                    "aria-label": "Toggle theme",
+                                    children: isDarkMode ? "\u2600\uFE0F" : "\uD83C\uDF19"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.jsx",
+                                    lineNumber: 20,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                    className: "nav-btn contact-btn",
+                                    onClick: ()=>window.location.href = 'mailto:srikshithrao@gmail.com',
+                                    children: "Say Hello"
+                                }, void 0, false, {
+                                    fileName: "src/components/Header.jsx",
+                                    lineNumber: 23,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "src/components/Header.jsx",
-                            lineNumber: 17,
+                            lineNumber: 19,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Header.jsx",
-                    lineNumber: 13,
+                    lineNumber: 15,
                     columnNumber: 9
                 }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Header.jsx",
-            lineNumber: 9,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Header.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
+            }, void 0, false, {
+                fileName: "src/components/Header.jsx",
+                lineNumber: 14,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
 }
 _s(Header, "MY/fJVj7pNG84xK2IRXuobEs7Rg=", false, function() {
     return [
@@ -27824,6 +27850,18 @@ function ProjectsNew() {
             github: "https://github.com/srikshith512/Weather_APP",
             live: "https://your-weather-app.netlify.app",
             image: "\uD83C\uDF24\uFE0F"
+        },
+        {
+            title: "Portfolio Website",
+            description: "Personal portfolio showcasing my projects and skills. Built with React and modern web technologies.",
+            technologies: [
+                "React",
+                "CSS3",
+                "JavaScript"
+            ],
+            github: "https://github.com/srikshith512/portfolio",
+            live: "#",
+            image: "\uD83D\uDCBC"
         }
     ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -27837,7 +27875,7 @@ function ProjectsNew() {
                     children: "Featured Projects"
                 }, void 0, false, {
                     fileName: "src/components/ProjectsNew.jsx",
-                    lineNumber: 34,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27850,7 +27888,7 @@ function ProjectsNew() {
                                     children: project.image
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectsNew.jsx",
-                                    lineNumber: 38,
+                                    lineNumber: 46,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
@@ -27858,7 +27896,7 @@ function ProjectsNew() {
                                     children: project.title
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectsNew.jsx",
-                                    lineNumber: 39,
+                                    lineNumber: 47,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27866,7 +27904,7 @@ function ProjectsNew() {
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectsNew.jsx",
-                                    lineNumber: 40,
+                                    lineNumber: 48,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27876,12 +27914,12 @@ function ProjectsNew() {
                                             children: tech
                                         }, techIndex, false, {
                                             fileName: "src/components/ProjectsNew.jsx",
-                                            lineNumber: 43,
+                                            lineNumber: 51,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "src/components/ProjectsNew.jsx",
-                                    lineNumber: 41,
+                                    lineNumber: 49,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27895,7 +27933,7 @@ function ProjectsNew() {
                                             children: "GitHub"
                                         }, void 0, false, {
                                             fileName: "src/components/ProjectsNew.jsx",
-                                            lineNumber: 47,
+                                            lineNumber: 55,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27906,35 +27944,35 @@ function ProjectsNew() {
                                             children: "Live Demo"
                                         }, void 0, false, {
                                             fileName: "src/components/ProjectsNew.jsx",
-                                            lineNumber: 50,
+                                            lineNumber: 58,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/ProjectsNew.jsx",
-                                    lineNumber: 46,
+                                    lineNumber: 54,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "src/components/ProjectsNew.jsx",
-                            lineNumber: 37,
+                            lineNumber: 45,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "src/components/ProjectsNew.jsx",
-                    lineNumber: 35,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/ProjectsNew.jsx",
-            lineNumber: 33,
+            lineNumber: 41,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/ProjectsNew.jsx",
-        lineNumber: 32,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }

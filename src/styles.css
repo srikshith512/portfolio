@@ -46,6 +46,20 @@ body {
   padding: 0 24px;
 }
 
+/* Development Banner */
+.dev-banner {
+  background: var(--primary-purple);
+  padding: 6px 0;
+  text-align: center;
+}
+
+.dev-text {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
 /* Header Styles */
 .header {
   padding: 20px 0;
@@ -163,9 +177,10 @@ body {
 .hero-subtitle {
   font-size: 24px;
   color: var(--primary-purple);
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   font-weight: 600;
 }
+
 
 .hero-description {
   font-size: 18px;
@@ -367,6 +382,7 @@ body {
   background: #5855eb;
 }
 
+
 /* Education Section */
 .education {
   padding: 80px 0;
@@ -474,6 +490,10 @@ body {
   
   .section-title {
     font-size: 28px;
+  }
+  
+  .dev-text {
+    font-size: 11px;
   }
   
   .skills-grid,
