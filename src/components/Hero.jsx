@@ -1,11 +1,12 @@
 import React from 'react';
+import avatarSvg from '../avatar.svg';
 
 export default function Hero() {
   return (
     <section className="hero">
       <div className="container hero-content">
         <div className="hero-avatar">
-          <img src="/src/avatar.svg" alt="Srikshith Rao" className="avatar-image" />
+          <img src={avatarSvg} alt="Srikshith Rao" className="avatar-image" />
         </div>
         <h1 className="hero-title">Hi, I'm Srikshith Rao</h1>
         <h2 className="hero-subtitle">Computer Science Student & Full-Stack Developer</h2>

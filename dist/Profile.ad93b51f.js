@@ -27575,6 +27575,8 @@ parcelHelpers.export(exports, "default", ()=>Hero);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _avatarSvg = require("../avatar.svg");
+var _avatarSvgDefault = parcelHelpers.interopDefault(_avatarSvg);
 function Hero() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "hero",
@@ -27584,17 +27586,17 @@ function Hero() {
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "hero-avatar",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: "/src/avatar.svg",
+                        src: (0, _avatarSvgDefault.default),
                         alt: "Srikshith Rao",
                         className: "avatar-image"
                     }, void 0, false, {
                         fileName: "src/components/Hero.jsx",
-                        lineNumber: 8,
+                        lineNumber: 9,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/Hero.jsx",
-                    lineNumber: 7,
+                    lineNumber: 8,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -27602,7 +27604,7 @@ function Hero() {
                     children: "Hi, I'm Srikshith Rao"
                 }, void 0, false, {
                     fileName: "src/components/Hero.jsx",
-                    lineNumber: 10,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -27610,7 +27612,7 @@ function Hero() {
                     children: "Computer Science Student & Full-Stack Developer"
                 }, void 0, false, {
                     fileName: "src/components/Hero.jsx",
-                    lineNumber: 11,
+                    lineNumber: 12,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27618,7 +27620,7 @@ function Hero() {
                     children: "Passionate about creating innovative solutions and building impactful projects. Currently seeking opportunities to contribute to dynamic teams and grow as a developer."
                 }, void 0, false, {
                     fileName: "src/components/Hero.jsx",
-                    lineNumber: 12,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27630,7 +27632,7 @@ function Hero() {
                             children: "View Resume"
                         }, void 0, false, {
                             fileName: "src/components/Hero.jsx",
-                            lineNumber: 17,
+                            lineNumber: 18,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27641,24 +27643,24 @@ function Hero() {
                             children: "See My Work"
                         }, void 0, false, {
                             fileName: "src/components/Hero.jsx",
-                            lineNumber: 20,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Hero.jsx",
-                    lineNumber: 16,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/Hero.jsx",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/Hero.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
@@ -27671,7 +27673,7 @@ $RefreshReg$(_c, "Hero");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6Dlx7":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../avatar.svg":"8ihC5"}],"8ihC5":[function() {},{}],"6Dlx7":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$002d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$002d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
