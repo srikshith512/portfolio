@@ -24998,65 +24998,64 @@ parcelHelpers.export(exports, "default", ()=>App);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _themeContextJsx = require("./contexts/ThemeContext.jsx");
 var _headerJsx = require("./components/Header.jsx");
 var _headerJsxDefault = parcelHelpers.interopDefault(_headerJsx);
-var _aboutJsx = require("./components/About.jsx");
-var _aboutJsxDefault = parcelHelpers.interopDefault(_aboutJsx);
-var _projectsJsx = require("./components/Projects.jsx");
-var _projectsJsxDefault = parcelHelpers.interopDefault(_projectsJsx);
-var _contactJsx = require("./components/Contact.jsx");
-var _contactJsxDefault = parcelHelpers.interopDefault(_contactJsx);
+var _heroJsx = require("./components/Hero.jsx");
+var _heroJsxDefault = parcelHelpers.interopDefault(_heroJsx);
+var _skillsJsx = require("./components/Skills.jsx");
+var _skillsJsxDefault = parcelHelpers.interopDefault(_skillsJsx);
+var _projectsNewJsx = require("./components/ProjectsNew.jsx");
+var _projectsNewJsxDefault = parcelHelpers.interopDefault(_projectsNewJsx);
+var _educationJsx = require("./components/Education.jsx");
+var _educationJsxDefault = parcelHelpers.interopDefault(_educationJsx);
 function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "app",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerJsxDefault.default), {
-                name: "srikshtith rao",
-                title: "Frontend Developer"
-            }, void 0, false, {
-                fileName: "src/App.jsx",
-                lineNumber: 10,
-                columnNumber: 3
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutJsxDefault.default), {}, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsJsxDefault.default), {}, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 13,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactJsxDefault.default), {}, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 14,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/App.jsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
-                className: "footer",
-                children: [
-                    "\xa9 ",
-                    new Date().getFullYear(),
-                    " srikshtith rao \u2014 Built with React"
-                ]
-            }, void 0, true, {
-                fileName: "src/App.jsx",
-                lineNumber: 16,
-                columnNumber: 3
-            }, this)
-        ]
-    }, void 0, true, {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themeContextJsx.ThemeProvider), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "app",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerJsxDefault.default), {}, void 0, false, {
+                    fileName: "src/App.jsx",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _heroJsxDefault.default), {}, void 0, false, {
+                            fileName: "src/App.jsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsJsxDefault.default), {}, void 0, false, {
+                            fileName: "src/App.jsx",
+                            lineNumber: 16,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsNewJsxDefault.default), {}, void 0, false, {
+                            fileName: "src/App.jsx",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationJsxDefault.default), {}, void 0, false, {
+                            fileName: "src/App.jsx",
+                            lineNumber: 18,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/App.jsx",
+                    lineNumber: 14,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/App.jsx",
+            lineNumber: 12,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "src/App.jsx",
-        lineNumber: 9,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }
@@ -25069,7 +25068,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/Header.jsx":"8BCUx","./components/About.jsx":"aOGfJ","./components/Projects.jsx":"lNfRg","./components/Contact.jsx":"d75GN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"8BCUx":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/Header.jsx":"8BCUx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/Hero.jsx":"6Bk7b","./contexts/ThemeContext.jsx":"lbyyY","./components/Skills.jsx":"6Dlx7","./components/ProjectsNew.jsx":"3jLWB","./components/Education.jsx":"3UYBS"}],"8BCUx":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$bb7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$bb7d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -25083,81 +25082,76 @@ parcelHelpers.export(exports, "default", ()=>Header);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-function Header({ name, title }) {
+var _themeContextJsx = require("../contexts/ThemeContext.jsx");
+var _s = $RefreshSig$();
+function Header() {
+    _s();
+    const { isDarkMode, toggleTheme } = (0, _themeContextJsx.useTheme)();
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
         className: "header",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "container header-inner",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "name",
-                            children: name
-                        }, void 0, false, {
-                            fileName: "src/components/Header.jsx",
-                            lineNumber: 8,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "title",
-                            children: title
-                        }, void 0, false, {
-                            fileName: "src/components/Header.jsx",
-                            lineNumber: 9,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                    className: "logo",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "logo-icon",
+                        children: "M"
+                    }, void 0, false, {
+                        fileName: "src/components/Header.jsx",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
                     fileName: "src/components/Header.jsx",
-                    lineNumber: 7,
+                    lineNumber: 10,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
                     className: "nav",
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#about",
-                            children: "About"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.jsx",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#projects",
-                            children: "Projects"
-                        }, void 0, false, {
-                            fileName: "src/components/Header.jsx",
-                            lineNumber: 13,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#contact",
-                            children: "Contact"
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "nav-btn theme-toggle",
+                            onClick: toggleTheme,
+                            "aria-label": "Toggle theme",
+                            children: isDarkMode ? "\u2600\uFE0F" : "\uD83C\uDF19"
                         }, void 0, false, {
                             fileName: "src/components/Header.jsx",
                             lineNumber: 14,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "nav-btn contact-btn",
+                            onClick: ()=>window.location.href = 'mailto:srikshithrao@gmail.com',
+                            children: "Say Hello"
+                        }, void 0, false, {
+                            fileName: "src/components/Header.jsx",
+                            lineNumber: 17,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Header.jsx",
-                    lineNumber: 11,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/Header.jsx",
-            lineNumber: 6,
+            lineNumber: 9,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/Header.jsx",
-        lineNumber: 5,
+        lineNumber: 8,
         columnNumber: 5
     }, this);
 }
+_s(Header, "MY/fJVj7pNG84xK2IRXuobEs7Rg=", false, function() {
+    return [
+        (0, _themeContextJsx.useTheme)
+    ];
+});
 _c = Header;
 var _c;
 $RefreshReg$(_c, "Header");
@@ -25167,7 +25161,7 @@ $RefreshReg$(_c, "Header");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../contexts/ThemeContext.jsx":"lbyyY"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27475,246 +27469,668 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"aOGfJ":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$80ee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$80ee.init();
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"lbyyY":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$e357 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$e357.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$80ee.prelude(module);
+$parcel$ReactRefreshHelpers$e357.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>About);
+parcelHelpers.export(exports, "useTheme", ()=>useTheme);
+parcelHelpers.export(exports, "ThemeProvider", ()=>ThemeProvider);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-function About() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "about",
-        className: "section about",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "About me"
-                }, void 0, false, {
-                    fileName: "src/components/About.jsx",
-                    lineNumber: 7,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "Hi \u2014 I'm srikshtith rao, a frontend developer who builds accessible and maintainable web apps. WEBSITE BUILD IN PROGRESS."
-                }, void 0, false, {
-                    fileName: "src/components/About.jsx",
-                    lineNumber: 8,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/About.jsx",
-            lineNumber: 6,
-            columnNumber: 7
-        }, this)
+var _s = $RefreshSig$(), _s1 = $RefreshSig$();
+const ThemeContext = /*#__PURE__*/ (0, _react.createContext)();
+const useTheme = ()=>{
+    _s();
+    const context = (0, _react.useContext)(ThemeContext);
+    if (!context) throw new Error('useTheme must be used within a ThemeProvider');
+    return context;
+};
+_s(useTheme, "b9L3QQ+jgeyIrH0NfHrJ8nn7VMU=");
+const ThemeProvider = ({ children })=>{
+    _s1();
+    const [isDarkMode, setIsDarkMode] = (0, _react.useState)(()=>{
+        // Check localStorage for saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) return savedTheme === 'dark';
+        // Default to system preference
+        return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    });
+    (0, _react.useEffect)(()=>{
+        // Save theme preference to localStorage
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        // Apply theme class to document
+        document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+    }, [
+        isDarkMode
+    ]);
+    const toggleTheme = ()=>{
+        setIsDarkMode((prev)=>!prev);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ThemeContext.Provider, {
+        value: {
+            isDarkMode,
+            toggleTheme
+        },
+        children: children
     }, void 0, false, {
-        fileName: "src/components/About.jsx",
-        lineNumber: 5,
+        fileName: "src/contexts/ThemeContext.jsx",
+        lineNumber: 37,
         columnNumber: 5
-    }, this);
-}
-_c = About;
+    }, undefined);
+};
+_s1(ThemeProvider, "jMrh1OXqhLVZboDlfhRDYncD+l4=");
+_c = ThemeProvider;
 var _c;
-$RefreshReg$(_c, "About");
+$RefreshReg$(_c, "ThemeProvider");
 
-  $parcel$ReactRefreshHelpers$80ee.postlude(module);
+  $parcel$ReactRefreshHelpers$e357.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lNfRg":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$fba3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$fba3.init();
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6Bk7b":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$604a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$604a.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$fba3.prelude(module);
+$parcel$ReactRefreshHelpers$604a.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Projects);
+parcelHelpers.export(exports, "default", ()=>Hero);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const projects = [
-    {
-        id: 1,
-        name: 'Project One',
-        desc: 'Short description',
-        link: '#'
-    },
-    {
-        id: 2,
-        name: 'Project Two',
-        desc: 'Short description',
-        link: '#'
-    }
-];
-function Projects() {
+function Hero() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "projects",
-        className: "section projects",
+        className: "hero",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container",
+            className: "container hero-content",
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Projects"
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "hero-avatar",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "/src/avatar.svg",
+                        alt: "Srikshith Rao",
+                        className: "avatar-image"
+                    }, void 0, false, {
+                        fileName: "src/components/Hero.jsx",
+                        lineNumber: 8,
+                        columnNumber: 11
+                    }, this)
                 }, void 0, false, {
-                    fileName: "src/components/Projects.jsx",
+                    fileName: "src/components/Hero.jsx",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "hero-title",
+                    children: "Hi, I'm Srikshith Rao"
+                }, void 0, false, {
+                    fileName: "src/components/Hero.jsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "hero-subtitle",
+                    children: "Computer Science Student & Full-Stack Developer"
+                }, void 0, false, {
+                    fileName: "src/components/Hero.jsx",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "hero-description",
+                    children: "Passionate about creating innovative solutions and building impactful projects. Currently seeking opportunities to contribute to dynamic teams and grow as a developer."
+                }, void 0, false, {
+                    fileName: "src/components/Hero.jsx",
                     lineNumber: 12,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "project-list",
-                    children: projects.map((p)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("article", {
-                            className: "project",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    children: p.name
-                                }, void 0, false, {
-                                    fileName: "src/components/Projects.jsx",
-                                    lineNumber: 16,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    children: p.desc
-                                }, void 0, false, {
-                                    fileName: "src/components/Projects.jsx",
-                                    lineNumber: 17,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: p.link,
-                                    target: "_blank",
-                                    rel: "noreferrer",
-                                    children: "View"
-                                }, void 0, false, {
-                                    fileName: "src/components/Projects.jsx",
-                                    lineNumber: 18,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, p.id, true, {
-                            fileName: "src/components/Projects.jsx",
-                            lineNumber: 15,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "src/components/Projects.jsx",
-                    lineNumber: 13,
+                    className: "hero-actions",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "cta-btn primary",
+                            onClick: ()=>window.open('https://drive.google.com/file/d/your-resume-link', '_blank'),
+                            children: "View Resume"
+                        }, void 0, false, {
+                            fileName: "src/components/Hero.jsx",
+                            lineNumber: 17,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "cta-btn secondary",
+                            onClick: ()=>document.getElementById('projects')?.scrollIntoView({
+                                    behavior: 'smooth'
+                                }),
+                            children: "See My Work"
+                        }, void 0, false, {
+                            fileName: "src/components/Hero.jsx",
+                            lineNumber: 20,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Hero.jsx",
+                    lineNumber: 16,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "src/components/Projects.jsx",
-            lineNumber: 11,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Projects.jsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
-}
-_c = Projects;
-var _c;
-$RefreshReg$(_c, "Projects");
-
-  $parcel$ReactRefreshHelpers$fba3.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"d75GN":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$3991 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$3991.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3991.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Contact);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-function Contact() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "contact",
-        className: "section contact",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Contact"
-                }, void 0, false, {
-                    fileName: "src/components/Contact.jsx",
-                    lineNumber: 7,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: [
-                        "Email: ",
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "mailto:srikshith5120@gmail.com",
-                            children: "srikshith5120@gmail.com"
-                        }, void 0, false, {
-                            fileName: "src/components/Contact.jsx",
-                            lineNumber: 9,
-                            columnNumber: 18
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Contact.jsx",
-                    lineNumber: 8,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: [
-                        "GitHub: ",
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "https://github.com/srikshith512",
-                            target: "_blank",
-                            rel: "noreferrer",
-                            children: "srikshith512"
-                        }, void 0, false, {
-                            fileName: "src/components/Contact.jsx",
-                            lineNumber: 12,
-                            columnNumber: 19
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Contact.jsx",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Contact.jsx",
+            fileName: "src/components/Hero.jsx",
             lineNumber: 6,
             columnNumber: 7
         }, this)
     }, void 0, false, {
-        fileName: "src/components/Contact.jsx",
+        fileName: "src/components/Hero.jsx",
         lineNumber: 5,
         columnNumber: 5
     }, this);
 }
-_c = Contact;
+_c = Hero;
 var _c;
-$RefreshReg$(_c, "Contact");
+$RefreshReg$(_c, "Hero");
 
-  $parcel$ReactRefreshHelpers$3991.postlude(module);
+  $parcel$ReactRefreshHelpers$604a.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"6Dlx7":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$002d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$002d.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$002d.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Skills);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Skills() {
+    const skillCategories = [
+        {
+            title: "Programming Languages",
+            skills: [
+                "JavaScript",
+                "Python",
+                "Java",
+                "C"
+            ]
+        },
+        {
+            title: "Web Technologies",
+            skills: [
+                "React",
+                "Node.js",
+                "HTML5",
+                "CSS3",
+                "Express.js",
+                "SQL"
+            ]
+        },
+        {
+            title: "Tools & Technologies",
+            skills: [
+                "Git",
+                "Figma",
+                "VS Code"
+            ]
+        },
+        {
+            title: "Concepts",
+            skills: [
+                "Data Structures",
+                "Algorithms",
+                "OOP",
+                "Database Design",
+                "REST APIs"
+            ]
+        }
+    ];
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "skills",
+        id: "skills",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "section-title",
+                    children: "Technical Skills"
+                }, void 0, false, {
+                    fileName: "src/components/Skills.jsx",
+                    lineNumber: 26,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "skills-grid",
+                    children: skillCategories.map((category, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "skill-category",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    className: "category-title",
+                                    children: category.title
+                                }, void 0, false, {
+                                    fileName: "src/components/Skills.jsx",
+                                    lineNumber: 30,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "skills-list",
+                                    children: category.skills.map((skill, skillIndex)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "skill-tag",
+                                            children: skill
+                                        }, skillIndex, false, {
+                                            fileName: "src/components/Skills.jsx",
+                                            lineNumber: 33,
+                                            columnNumber: 19
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "src/components/Skills.jsx",
+                                    lineNumber: 31,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, index, true, {
+                            fileName: "src/components/Skills.jsx",
+                            lineNumber: 29,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "src/components/Skills.jsx",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Skills.jsx",
+            lineNumber: 25,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Skills.jsx",
+        lineNumber: 24,
+        columnNumber: 5
+    }, this);
+}
+_c = Skills;
+var _c;
+$RefreshReg$(_c, "Skills");
+
+  $parcel$ReactRefreshHelpers$002d.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"3jLWB":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$4bc5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$4bc5.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$4bc5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>ProjectsNew);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function ProjectsNew() {
+    const projects = [
+        {
+            title: "Webb Sight",
+            description: "An interactive web application that showcases the wonders the James Webb Telescope has captured",
+            technologies: [
+                "React",
+                "Node.js"
+            ],
+            github: "https://github.com/Ghovkg02/Webb_Sight",
+            live: "https://web-ghovkg02s-projects.vercel.app/",
+            image: "\uD83C\uDF1F"
+        },
+        {
+            title: "JanSetu",
+            description: "A dashboard developed for government workers to track and assign tasks to their various department",
+            technologies: [
+                "React",
+                "Node.js",
+                "PostgreSQL",
+                "Material-UI"
+            ],
+            github: "https://github.com/srikshith512/JanSetu_1",
+            live: "https://your-task-manager.netlify.app",
+            image: "\uD83D\uDCCB"
+        },
+        {
+            title: "Weather Dashboard",
+            description: "Interactive weather application",
+            technologies: [
+                "JavaScript",
+                "OpenWeather API"
+            ],
+            github: "https://github.com/srikshith512/Weather_APP",
+            live: "https://your-weather-app.netlify.app",
+            image: "\uD83C\uDF24\uFE0F"
+        }
+    ];
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "projects",
+        id: "projects",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "section-title",
+                    children: "Featured Projects"
+                }, void 0, false, {
+                    fileName: "src/components/ProjectsNew.jsx",
+                    lineNumber: 34,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "projects-grid",
+                    children: projects.map((project, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "project-card",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "project-icon",
+                                    children: project.image
+                                }, void 0, false, {
+                                    fileName: "src/components/ProjectsNew.jsx",
+                                    lineNumber: 38,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    className: "project-title",
+                                    children: project.title
+                                }, void 0, false, {
+                                    fileName: "src/components/ProjectsNew.jsx",
+                                    lineNumber: 39,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "project-description",
+                                    children: project.description
+                                }, void 0, false, {
+                                    fileName: "src/components/ProjectsNew.jsx",
+                                    lineNumber: 40,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "project-tech",
+                                    children: project.technologies.map((tech, techIndex)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                            className: "tech-tag",
+                                            children: tech
+                                        }, techIndex, false, {
+                                            fileName: "src/components/ProjectsNew.jsx",
+                                            lineNumber: 43,
+                                            columnNumber: 19
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "src/components/ProjectsNew.jsx",
+                                    lineNumber: 41,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "project-links",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: project.github,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "project-link",
+                                            children: "GitHub"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ProjectsNew.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: project.live,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            className: "project-link primary",
+                                            children: "Live Demo"
+                                        }, void 0, false, {
+                                            fileName: "src/components/ProjectsNew.jsx",
+                                            lineNumber: 50,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/ProjectsNew.jsx",
+                                    lineNumber: 46,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, index, true, {
+                            fileName: "src/components/ProjectsNew.jsx",
+                            lineNumber: 37,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "src/components/ProjectsNew.jsx",
+                    lineNumber: 35,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/ProjectsNew.jsx",
+            lineNumber: 33,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/ProjectsNew.jsx",
+        lineNumber: 32,
+        columnNumber: 5
+    }, this);
+}
+_c = ProjectsNew;
+var _c;
+$RefreshReg$(_c, "ProjectsNew");
+
+  $parcel$ReactRefreshHelpers$4bc5.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"3UYBS":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$06ad = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$06ad.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$06ad.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Education);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Education() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "education",
+        id: "education",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "section-title",
+                    children: "Education"
+                }, void 0, false, {
+                    fileName: "src/components/Education.jsx",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "education-content",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "education-item",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "education-icon",
+                                children: "\uD83C\uDF93"
+                            }, void 0, false, {
+                                fileName: "src/components/Education.jsx",
+                                lineNumber: 10,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "education-details",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "degree",
+                                        children: "Bachelor of Technology in Computer Science"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Education.jsx",
+                                        lineNumber: 12,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "institution",
+                                        children: "Dayananda Sagar University"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Education.jsx",
+                                        lineNumber: 13,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "duration",
+                                        children: "2023 - 2027 (Expected)"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Education.jsx",
+                                        lineNumber: 14,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "gpa",
+                                        children: "CGPA: 8.9/10"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Education.jsx",
+                                        lineNumber: 15,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "coursework",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                                                children: "Relevant Coursework:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Education.jsx",
+                                                lineNumber: 17,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "course-tags",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "course-tag",
+                                                        children: "Data Structures & Algorithms"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Education.jsx",
+                                                        lineNumber: 19,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "course-tag",
+                                                        children: "Database Management Systems"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Education.jsx",
+                                                        lineNumber: 20,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "course-tag",
+                                                        children: "Web Development"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Education.jsx",
+                                                        lineNumber: 21,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "course-tag",
+                                                        children: "Software Engineering"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Education.jsx",
+                                                        lineNumber: 22,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "course-tag",
+                                                        children: "Computer Networks"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Education.jsx",
+                                                        lineNumber: 23,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                        className: "course-tag",
+                                                        children: "Operating Systems"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Education.jsx",
+                                                        lineNumber: 24,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Education.jsx",
+                                                lineNumber: 18,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Education.jsx",
+                                        lineNumber: 16,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Education.jsx",
+                                lineNumber: 11,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Education.jsx",
+                        lineNumber: 9,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/Education.jsx",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Education.jsx",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Education.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = Education;
+var _c;
+$RefreshReg$(_c, "Education");
+
+  $parcel$ReactRefreshHelpers$06ad.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;

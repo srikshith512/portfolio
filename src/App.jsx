@@ -1,19 +1,23 @@
 import React from 'react';
+import { ThemeProvider } from './contexts/ThemeContext.jsx';
 import Header from './components/Header.jsx';
-import About from './components/About.jsx';
-import Projects from './components/Projects.jsx';
-import Contact from './components/Contact.jsx';
+import Hero from './components/Hero.jsx';
+import Skills from './components/Skills.jsx';
+import ProjectsNew from './components/ProjectsNew.jsx';
+import Education from './components/Education.jsx';
 
 export default function App() {
   return (
-    <div className="app">
-  <Header name="srikshtith rao" title="Frontend Developer" />
-      <main>
-        <About />
-        <Projects />
-        <Contact />
-      </main>
-  <footer className="footer">© {new Date().getFullYear()} srikshtith rao — Built with React</footer>
-    </div>
+    <ThemeProvider>
+      <div className="app">
+        <Header />
+        <main>
+          <Hero />
+          <Skills />
+          <ProjectsNew />
+          <Education />
+        </main>
+      </div>
+    </ThemeProvider>
   );
 }

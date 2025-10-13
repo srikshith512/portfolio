@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="98" fill="url(#gradient)" stroke="#6366f1" stroke-width="4"/>
+  
+  <!-- Face -->
+  <circle cx="100" cy="90" r="35" fill="#FDBCB4"/>
+  
+  <!-- Hair -->
+  <path d="M65 70C65 45 80 30 100 30C120 30 135 45 135 70C135 75 132 80 128 82C125 78 120 75 115 73C110 71 105 70 100 70C95 70 90 71 85 73C80 75 75 78 72 82C68 80 65 75 65 70Z" fill="#2D1B14"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="85" r="2.5" fill="#000"/>
+  <circle cx="110" cy="85" r="2.5" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M85 80L95 78" stroke="#2D1B14" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M105 78L115 80" stroke="#2D1B14" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <circle cx="100" cy="92" r="1" fill="#F4A6A0"/>
+  
+  <!-- Smile -->
+  <path d="M92 100C96 106 104 106 108 100" stroke="#000" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <rect x="92" y="120" width="16" height="15" fill="#FDBCB4"/>
+  
+  <!-- Shirt/Collar -->
+  <path d="M75 135C75 130 85 125 100 125C115 125 125 130 125 135V200H75V135Z" fill="#6366f1"/>
+  
+  <!-- Collar -->
+  <path d="M92 125L100 135L108 125" stroke="#4F46E5" stroke-width="2" fill="none"/>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+</svg>
