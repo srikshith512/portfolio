@@ -505,10 +505,22 @@ ul {
   position: relative;
 }
 
+.about-grid {
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 40px;
+  display: grid;
+}
+
+@media (width >= 768px) {
+  .about-grid {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
 .about-content-wrapper {
   background: var(--bg-secondary);
   border: 1px dashed var(--border-color);
-  max-width: 800px;
   padding: 40px;
   position: relative;
 }
@@ -534,6 +546,24 @@ ul {
 .about p span.highlight {
   color: var(--text-main);
   border-bottom: 1px dotted var(--accent-purple);
+}
+
+.about-avatar-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.about-avatar {
+  aspect-ratio: 1;
+  border: 2px solid var(--accent-purple);
+  object-fit: cover;
+  background: var(--bg-secondary);
+  border-radius: 50%;
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  box-shadow: 0 0 20px #c084fc33;
 }
 
 .contact-box {

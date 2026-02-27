@@ -1,4 +1,5 @@
 import React from 'react';
+import avatarImg from '../avatar.png';
 
 export default function About() {
   return (
@@ -7,12 +8,17 @@ export default function About() {
         <div className="section-header">
           <h2 className="section-title">about-me</h2>
         </div>
-        <div className="about-content-wrapper">
-          <p>
-            Hi — I'm <span className="highlight">srikshith rao</span>, a frontend developer who builds accessible and
-            maintainable web apps. I am passionate about creating efficient and aesthetically pleasing digital experiences.
-            Always eager to learn new technologies and build robust solutions from the ground up.
-          </p>
+        <div className="about-grid">
+          <div className="about-content-wrapper">
+            <p>
+              Hi — I'm <span className="highlight">Srikshith Rao</span>.I am a Computer Science and Engineering undergraduate with a strong interest in technology and its practical impact.
+              <br /><br />
+              Eager to work on innovative, real-world systems that combine software with meaningful user outcomes. I’m a quick learner with a collaborative mindset, committed to continuous growth.
+            </p>
+          </div>
+          <div className="about-avatar-wrapper">
+            <img src={avatarImg} alt="Robot Avatar" className="about-avatar" />
+          </div>
         </div>
       </div>
     </section>

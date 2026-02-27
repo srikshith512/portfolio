@@ -528,12 +528,24 @@ ul {
   position: relative;
 }
 
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
 .about-content-wrapper {
   background: var(--bg-secondary);
   border: 1px dashed var(--border-color);
   padding: 40px;
   position: relative;
-  max-width: 800px;
 }
 
 .about-content-wrapper::before {
@@ -557,6 +569,24 @@ ul {
 .about p span.highlight {
   color: var(--text-main);
   border-bottom: 1px dotted var(--accent-purple);
+}
+
+.about-avatar-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-avatar {
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: 2px solid var(--accent-purple);
+  box-shadow: 0 0 20px rgba(192, 132, 252, 0.2);
+  object-fit: cover;
+  background: var(--bg-secondary);
+  padding: 10px;
 }
 
 /* ================== CONTACT (REDESIGNED) ================== */

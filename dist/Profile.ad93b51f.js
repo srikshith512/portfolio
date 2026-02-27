@@ -207,11 +207,11 @@
       });
     }
   }
-})({"hiyDA":[function(require,module,exports,__globalThis) {
+})({"5HZ50":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 49787;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -748,7 +748,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _themeContextJsx.ThemeP
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./App.jsx":"f8V2Q","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./contexts/ThemeContext.jsx":"lbyyY"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./App.jsx":"f8V2Q","./styles.css":"lW6qc","./contexts/ThemeContext.jsx":"lbyyY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -25080,7 +25080,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/Header.jsx":"8BCUx","./components/About.jsx":"aOGfJ","./components/Contact.jsx":"d75GN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/ProjectsNew.jsx":"3jLWB","./components/Skills.jsx":"6Dlx7"}],"8BCUx":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./components/Header.jsx":"8BCUx","./components/About.jsx":"aOGfJ","./components/ProjectsNew.jsx":"3jLWB","./components/Skills.jsx":"6Dlx7","./components/Contact.jsx":"d75GN","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"8BCUx":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$bb7d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$bb7d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -27514,6 +27514,8 @@ parcelHelpers.export(exports, "default", ()=>About);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _avatarPng = require("../avatar.png");
+var _avatarPngDefault = parcelHelpers.interopDefault(_avatarPng);
 function About() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "about",
@@ -27528,48 +27530,84 @@ function About() {
                         children: "about-me"
                     }, void 0, false, {
                         fileName: "src/components/About.jsx",
-                        lineNumber: 8,
+                        lineNumber: 9,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "src/components/About.jsx",
-                    lineNumber: 7,
+                    lineNumber: 8,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "about-content-wrapper",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: [
-                            "Hi \u2014 I'm ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "highlight",
-                                children: "srikshith rao"
+                    className: "about-grid",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "about-content-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    "Hi \u2014 I'm ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "highlight",
+                                        children: "Srikshith Rao"
+                                    }, void 0, false, {
+                                        fileName: "src/components/About.jsx",
+                                        lineNumber: 14,
+                                        columnNumber: 24
+                                    }, this),
+                                    ".I am a Computer Science and Engineering undergraduate with a strong interest in technology and its practical impact.",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/About.jsx",
+                                        lineNumber: 15,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                        fileName: "src/components/About.jsx",
+                                        lineNumber: 15,
+                                        columnNumber: 21
+                                    }, this),
+                                    "Eager to work on innovative, real-world systems that combine software with meaningful user outcomes. I\u2019m a quick learner with a collaborative mindset, committed to continuous growth."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/About.jsx",
+                                lineNumber: 13,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/About.jsx",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "about-avatar-wrapper",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: (0, _avatarPngDefault.default),
+                                alt: "Robot Avatar",
+                                className: "about-avatar"
                             }, void 0, false, {
                                 fileName: "src/components/About.jsx",
-                                lineNumber: 12,
-                                columnNumber: 22
-                            }, this),
-                            ", a frontend developer who builds accessible and maintainable web apps. I am passionate about creating efficient and aesthetically pleasing digital experiences. Always eager to learn new technologies and build robust solutions from the ground up."
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/About.jsx",
-                        lineNumber: 11,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
+                                lineNumber: 20,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/About.jsx",
+                            lineNumber: 19,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/About.jsx",
-                    lineNumber: 10,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/About.jsx",
-            lineNumber: 6,
+            lineNumber: 7,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/About.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
@@ -27582,101 +27620,7 @@ $RefreshReg$(_c, "About");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"d75GN":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$3991 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$3991.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3991.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Contact);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-function Contact() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        id: "contact",
-        className: "section contact",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "contact-box",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        className: "contact-heading",
-                        children: "Let's build something together."
-                    }, void 0, false, {
-                        fileName: "src/components/Contact.jsx",
-                        lineNumber: 8,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        className: "contact-sub",
-                        children: "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open."
-                    }, void 0, false, {
-                        fileName: "src/components/Contact.jsx",
-                        lineNumber: 9,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "contact-actions",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "mailto:srikshith5120@gmail.com",
-                                className: "contact-primary-btn",
-                                children: "Say Hello"
-                            }, void 0, false, {
-                                fileName: "src/components/Contact.jsx",
-                                lineNumber: 13,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "https://github.com/srikshith512",
-                                target: "_blank",
-                                rel: "noreferrer",
-                                className: "contact-secondary-btn",
-                                children: "GitHub Profile"
-                            }, void 0, false, {
-                                fileName: "src/components/Contact.jsx",
-                                lineNumber: 14,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Contact.jsx",
-                        lineNumber: 12,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Contact.jsx",
-                lineNumber: 7,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "src/components/Contact.jsx",
-            lineNumber: 6,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Contact.jsx",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = Contact;
-var _c;
-$RefreshReg$(_c, "Contact");
-
-  $parcel$ReactRefreshHelpers$3991.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"3jLWB":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","../avatar.png":"fPyFF","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"fPyFF":[function() {},{}],"3jLWB":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$4bc5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$4bc5.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -28029,6 +27973,100 @@ $RefreshReg$(_c, "Skills");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"d75GN":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$3991 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$3991.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3991.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Contact);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Contact() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        id: "contact",
+        className: "section contact",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "contact-box",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "contact-heading",
+                        children: "Let's build something together."
+                    }, void 0, false, {
+                        fileName: "src/components/Contact.jsx",
+                        lineNumber: 8,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "contact-sub",
+                        children: "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open."
+                    }, void 0, false, {
+                        fileName: "src/components/Contact.jsx",
+                        lineNumber: 9,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "contact-actions",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "mailto:srikshith5120@gmail.com",
+                                className: "contact-primary-btn",
+                                children: "Say Hello"
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.jsx",
+                                lineNumber: 13,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "https://github.com/srikshith512",
+                                target: "_blank",
+                                rel: "noreferrer",
+                                className: "contact-secondary-btn",
+                                children: "GitHub Profile"
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.jsx",
+                                lineNumber: 14,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Contact.jsx",
+                        lineNumber: 12,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Contact.jsx",
+                lineNumber: 7,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/Contact.jsx",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/Contact.jsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = Contact;
+var _c;
+$RefreshReg$(_c, "Contact");
+
+  $parcel$ReactRefreshHelpers$3991.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
 },{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lW6qc":[function() {},{}],"lbyyY":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$e357 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$e357.init();
@@ -28095,6 +28133,6 @@ $RefreshReg$(_c, "ThemeProvider");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["hiyDA","gYcKb"], "gYcKb", "parcelRequiref153", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["5HZ50","gYcKb"], "gYcKb", "parcelRequiref153", {}, null, null, "http://localhost:49787")
 
 //# sourceMappingURL=Profile.ad93b51f.js.map
