@@ -3,20 +3,28 @@ import React from 'react';
 export default function ProjectsNew() {
   const projects = [
     {
-      title: "Webb Sight",
-      description: "An interactive web application that showcases the wonders the James Webb Telescope has captured",
-      technologies: ["React", "Node.js"],
-      github: "https://github.com/Ghovkg02/Webb_Sight",
-      live: "https://web-ghovkg02s-projects.vercel.app/",
-      image: "🌟"
+      title: "Head and Neck Tumor Detection using Deep Learning",
+      description: "Built a deep learning model using U-Net and an EfficientNet encoder to segment and detect tumors in anonymized CECT neck images from CDSIMER",
+      technologies: ["Python", "TensorFlow", "Keras"],
+      github: "https://github.com/srikshith512/Unet-model",
+      live: "",
+      image: "🩺"
     },
     {
-      title: "JanSetu",
-      description: "A dashboard developed for government workers to track and assign tasks to their various department",
+      title: "Full-Stack Restaurant Reservation System",
+      description: "Developed a dynamic web application using Node.js and Express to manage secure user authentication and streamline the table booking process.",
+      technologies: ["Node.js", "Express", "EJS", "MySQL"],
+      github: "",
+      live: "",
+      image: "🍽️"
+    },
+    {
+      title: "Webb Sight",
+      description: "Curated and integrated multimedia content to effectively showcase the astronomical discoveries of the James Webb Space Telescope.",
       technologies: ["React", "Node.js", "PostgreSQL", "Material-UI"],
-      github: "https://github.com/srikshith512/JanSetu_1",
-      live: "https://your-task-manager.netlify.app",
-      image: "📋"
+      github: "",
+      live: "",
+      image: "🛰️"
     },
     {
       title: "Weather Dashboard",
