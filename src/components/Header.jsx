@@ -1,31 +1,20 @@
 import React from 'react';
-import { useTheme } from '../contexts/ThemeContext.jsx';
 
 export default function Header() {
-  const { isDarkMode, toggleTheme } = useTheme();
-
   return (
-    <>
-      <div className="dev-banner">
-        <div className="container">
-          <span className="dev-text">Work in Progress</span>
+    <header className="header">
+      <div className="container header-inner">
+        <div className="logo">
+          @<span>srikshith</span>
         </div>
+        <nav className="nav">
+          <a href="#home" className="nav-link active">home</a>
+          <a href="#projects" className="nav-link">projects</a>
+          <a href="#skills" className="nav-link">skills</a>
+          <a href="#about" className="nav-link">about-me</a>
+          <a href="#contact" className="nav-link">contact-me</a>
+        </nav>
       </div>
-      <header className="header">
-        <div className="container header-inner">
-          <div className="logo">
-            <div className="logo-icon">M</div>
-          </div>
-          <nav className="nav">
-            <button className="nav-btn theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
-              {isDarkMode ? '☀️' : '🌙'}
-            </button>
-            <button className="nav-btn contact-btn" onClick={() => window.location.href = 'mailto:srikshithrao@gmail.com'}>
-              Say Hello
-            </button>
-          </nav>
-        </div>
-      </header>
-    </>
+    </header>
   );
 }

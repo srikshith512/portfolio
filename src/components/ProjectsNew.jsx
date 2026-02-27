@@ -45,9 +45,12 @@ export default function ProjectsNew() {
   ];
 
   return (
-    <section className="projects" id="projects">
+    <section className="section projects" id="projects">
       <div className="container">
-        <h2 className="section-title">Featured Projects</h2>
+        <div className="section-header">
+          <h2 className="section-title">projects</h2>
+          <a href="#" className="view-all">View all &rarr;</a>
+        </div>
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div key={index} className="project-card">
@@ -60,12 +63,16 @@ export default function ProjectsNew() {
                 ))}
               </div>
               <div className="project-links">
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
-                  GitHub
-                </a>
-                <a href={project.live} target="_blank" rel="noopener noreferrer" className="project-link primary">
-                  Live Demo
-                </a>
+                {project.github && (
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
+                    GitHub
+                  </a>
+                )}
+                {project.live && (
+                  <a href={project.live} target="_blank" rel="noopener noreferrer" className="project-link primary">
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           ))}

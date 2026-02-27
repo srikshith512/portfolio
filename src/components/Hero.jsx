@@ -1,26 +1,35 @@
 import React from 'react';
-import avatarSvg from '../avatar.svg';
+import avatarImg from '../avatar.png';
 
 export default function Hero() {
   return (
-    <section className="hero">
-      <div className="container hero-content">
-        <div className="hero-avatar">
-          <img src={avatarSvg} alt="Srikshith Rao" className="avatar-image" />
+    <section className="hero" id="home">
+      <div className="container">
+        <div className="hero-grid">
+          <div className="hero-content">
+            <h1 className="hero-greeting">
+              Hi, I'm a <span>tech enthusiast</span> and <span className="secondary">CS undergraduate</span>
+            </h1>
+            <p className="hero-description">
+              A Computer Science and Engineering undergraduate with a strong interest in technology and its practical impact. Eager to work on innovative, real-world systems that combine software with meaningful user outcomes. I’m a quick learner with a collaborative mindset, committed to continuous growth.
+            </p>
+            <button className="scroll-down" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
+              Scroll Down ↓
+            </button>
+          </div>
+
+          <div className="hero-avatar-container">
+            <div className="hero-avatar-wrapper">
+              <img src={avatarImg} alt="Srikshith Rao" className="avatar-image" />
+            </div>
+          </div>
         </div>
-        <h1 className="hero-title">Hi, I'm Srikshith Rao</h1>
-        <h2 className="hero-subtitle">Computer Science Student & Full-Stack Developer</h2>
-        <p className="hero-description">
-          Passionate about creating innovative solutions and building impactful projects. 
-          Currently seeking opportunities to contribute to dynamic teams and grow as a developer.
-        </p>
-        <div className="hero-actions">
-          <button className="cta-btn primary" onClick={() => window.open('https://drive.google.com/file/d/your-resume-link', '_blank')}>
-            View Resume
-          </button>
-          <button className="cta-btn secondary" onClick={() => document.getElementById('projects')?.scrollIntoView({behavior: 'smooth'})}>
-            See My Work
-          </button>
+
+        <div className="hero-quote">
+          <p>Control can sometimes be an illusion.</p>
+          <p>But sometimes you need illusion to gain control.</p>
+          <span>- Mr. Robot</span>
+          <div className="hero-quote-decor"></div>
         </div>
       </div>
     </section>

@@ -2,14 +2,16 @@ import React from 'react';
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
 import ProjectsNew from './components/ProjectsNew.jsx';
+import Skills from './components/Skills.jsx';
 import Contact from './components/Contact.jsx';
 
 export default function App() {
   return (
     <div className="app">
-      <Header name="srikshith rao" title="Frontend Developer" />
+      <Header />
       <main>
         <About />
+        <Skills />
         <ProjectsNew />
         <Contact />
       </main>

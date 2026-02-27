@@ -12,7 +12,7 @@ export default function Skills() {
     },
     {
       title: "Tools & Technologies",
-      skills: ["Git","Figma", "VS Code"]
+      skills: ["Git", "Figma", "VS Code"]
     },
     {
       title: "Concepts",
@@ -21,16 +21,18 @@ export default function Skills() {
   ];
 
   return (
-    <section className="skills" id="skills">
+    <section className="section skills" id="skills">
       <div className="container">
-        <h2 className="section-title">Technical Skills</h2>
-        <div className="skills-grid">
+        <div className="section-header">
+          <h2 className="section-title">skills</h2>
+        </div>
+        <div className="skills-container">
           {skillCategories.map((category, index) => (
-            <div key={index} className="skill-category">
-              <h3 className="category-title">{category.title}</h3>
-              <div className="skills-list">
+            <div key={index} className="skill-category-new">
+              <h3 className="category-title-new">{category.title}</h3>
+              <div className="skills-flex">
                 {category.skills.map((skill, skillIndex) => (
-                  <span key={skillIndex} className="skill-tag">{skill}</span>
+                  <span key={skillIndex} className="skill-badge">{skill}</span>
                 ))}
               </div>
             </div>
